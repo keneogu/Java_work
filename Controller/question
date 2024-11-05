@@ -1,0 +1,30 @@
+Situation: The Concert Band of PEI is looking for a program that will allow its ticket office to calculate the cost of ticket group purchases based on seat location. A group may purchase from one or all seat types in one transaction. Your program must allow the ticket office clerk to enter many seats for each type a group wishes to purchase (even if zero ticket is purchased from a type), once the information entered it should calculate: 1. the total cost of all tickets, and 2. the average cost of seats based on the user's order.
+
+Seat cost:
+Orchestra $ 25.00,
+Main Floor $ 30.00,
+Balcony $ 15.00
+
+Notes
+Constants should be used
+Ask for inputs one at a time, number of orchestra seats then main floor, then balcony.
+Store in separate variables.
+Use a method in your solution (other than the main method).
++calculateCost(int, int, int):double
++calculateAverage(int, double):double&nbsp; //input number of seats total and the cost - return the average
+
+Orchestra Seats:
+
+2
+
+Main Floor Seats:
+
+3
+
+Balcony Seats:
+
+4
+
+Total Cost of seats: $ 200.0
+
+Average Cost of seats: $22.2222222222

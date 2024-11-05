@@ -1,0 +1,23 @@
+Condo Sales Application
+
+Write an application for the Summerdale Condo Sales office; the program determines the price of a condominium.
+
+Ask the user to choose 1 for park view, 2 for golf course view, or 3 for lake view. Park view condos are $150,000,
+condos with golf course views are $170,000, and condos with lake views are $210,000.
+If the user enters an invalid code, set the price to 0.&nbsp;
+
+If the condo view selection is valid, add a prompt to the CondoSales application to ask the user to specify:
+
+garage (yes/no)
+parking space (yes/no).
+Add $5,000 to the price of any condo with a garage.
+Add $1000 to the pirce of any condo with a parking spot&nbsp;
+The output is the name of the chosen view, garage option, parking option and the price of the condo.
+
+Condo Sale
+View Type: Golf View
+Garage: Yes
+Parking: No
+Cost: $175000.00
+
+Save the project as cis1201_condosales_lastname_firstname
