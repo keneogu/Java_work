@@ -1,0 +1,100 @@
+If the user enters a negative number for any of the bouquet quantities, set the value for that type of bouquet to 0 and provide the user with an error message.
+If the price of the overall total bouquet order is $500 or more modify the toString() method to show ‘(Large Order!)’ on the same line in the output as ‘Order Summary’.
+The flower shop has the option to add a small, medium, or large stuffed animal.  When this option is chosen, the user is usually only picking one bouquet, but this option is available no matter how many they are choosing.  Modify the Order class to allow this new option. 
+
+Add an appropriate attribute to the Order class to store the stuffed animal option along with the getters and setters for it.
+Modify the custom constructor which accepts three quantities to also accept a code indicating which type of stuffed animal is desired
+0 – None
+1 – Small $10
+2 – Medium $20
+3 – Large $30
+Modify the getInformation() and toString() methods to account for this attribute.
+Modify the getSubtotal() method to account for this attribute.  When processing in the getSubtotal() method, use a switch case statement to add the correct amount to the subtotal for the stuffed animal.
+
+Bernadette's Flowers
+
+25 Hopeton Road
+
+Stratford, PE
+
+C1B 1H6
+
+ 
+
+How many 'Welcome Baby Boy' bouquets?
+
+10
+
+How many 'Welcome Baby Girl' bouquets?
+
+5
+
+How many 'Very Special Delivery' bouquets?
+
+4
+
+Stuffed animal option (1=Small 2=Medium 3=Large 0=None):
+
+0
+Order Summary (Large Order!)
+
+Number of Welcome Baby Boy bouquets: 10
+
+Number of Welcome Baby Girl bouquets: 5
+
+Number of Very Special Delivery bouquets: 4
+
+Stuffed Animal: None
+
+Subtotal:  $1725.0
+
+Tax: $258.75
+
+Total Cost:  $1983.75
+
+ 
+
+ 
+
+Bernadette's Flowers
+
+25 Hopeton Road
+
+Stratford, PE
+
+C1B 1H6
+
+ 
+
+How many 'Welcome Baby Boy' bouquets?
+
+1
+How many 'Welcome Baby Girl' bouquets?
+
+0
+
+How many 'Very Special Delivery' bouquets?
+
+0
+
+Stuffed animal option (1=Small 2=Medium 3=Large 0=None):
+
+2
+
+ 
+
+Order Summary
+
+Number of Welcome Baby Boy bouquets: 1
+
+Number of Welcome Baby Girl bouquets: 0
+
+Number of Very Special Delivery bouquets: 0
+
+Stuffed Animal: Medium
+
+Subtotal:  $110.0
+
+Tax: $16.5
+
+Total Cost:  $126.5

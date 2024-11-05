@@ -117,7 +117,6 @@ public class Employee {
       + "LTDisability: " + CisUtility.toCurrency(deductionLTDisability) + "\n"
       + "Pension Plan: " + CisUtility.toCurrency(deductionPension) + "\n"
       + "Net Pay: " + CisUtility.toCurrency(totalRegularPay + totalOvertimePay - deductionTotal) + "\n";
-
   }
 
 }

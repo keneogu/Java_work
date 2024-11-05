@@ -1,0 +1,12 @@
+Scholarship Application
+The Williamsburg Women’s Club offers scholarships to local high school students who meet any of several criteria. Write an application that prompts the user for a student’s numeric high school grade point average (for example, 3.2), the student’s number of extracurricular activities, and the student’s number of service activities. Display the message “Scholarship candidate” if the student has any of the following:
+
+A gpa of 4.0 is automatically a scholarship candidate
+A grade point average of 3.8 or above and at least one extracurricular activity and one service activity
+A grade point average at least 3.4 and a total of at least three extracurricular and service activities combined
+A grade point average at least 3.0 and at least two extracurricular activities and three service activities
+If the student does not meet any of the qualification criteria, display “Not a candidate.”
+Save the project as Scholarship.
+After completing above, can enhance to add this:
+
+Modify the Scholarship application so that if a user enters a grade point average under 0 or over 4.0, or a negative value for either of the activities, an error message appears.

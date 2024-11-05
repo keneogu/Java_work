@@ -1,0 +1,27 @@
+Assume that a gallon of paint covers about 350 square feet of wall space. Create an application with a main() method that prompts the user for the length, width, and height of a rectangular room. Pass these three values to a method that does the following:
+
+calculate():int
+This method will call the other methods to complete the overall cost calculation and the other calculations needed to accomplish this.
+calculateArea():int method functionality:
+
+Calculates the wall area for a room
+
+How do you calculate the area of the four walls of a room? Suggest doing some desk checking and be sure to understand this before coding.
+
+calculatePaintNeeded(): double
+Uses the calculated wall area to determine the number of gallons of paint needed.
+Remember a gallon covers 350 square feet.
+calculateCost(): double
+Computes the price based on a paint price of $32 per gallon,
+
+assuming that the painter can buy any fraction of a gallon of paint at the same price as a whole gallon (ie. 1.5 gallons would cost 32*1.5).
+
+Returns the price to be assigned to a variable in the main() method
+
+getInformation(): void
+This method will ask the user for the job details.
+display: void
+This will output the details to the console
+toString(): String
+This will format the output to be shown when displaying a paint job.
+The main() method displays the final price. For example, the cost to paint a 15- by-20-foot room with 10-foot ceilings is $64.
